@@ -21,12 +21,12 @@ export const BookCard = ({
               className="book-card-cover"
             />
           </div>
-        </figure>
 
-        <figcaption className="book-card-title">
-          <h3 className="book-card-title">{title}</h3>
-          <p className="book-card-author">{author} </p>
-        </figcaption>
+          <figcaption className="book-card-title">
+            <h3 className="book-card-title">{title}</h3>
+            <p className="book-card-author">{author} </p>
+          </figcaption>
+        </figure>
       </article>
     </Link>
   );
